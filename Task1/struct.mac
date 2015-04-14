@@ -42,7 +42,8 @@ TCallGateDesc			ENDS
 TTaskGateDesc			STRUCT
 						DW		0
 	Selector			DW		0
-						DW		0
+						DB		0
+	Attrib				DB		0
 						DW		0
 TTaskGateDesc			ENDS
 
